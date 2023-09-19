@@ -66,11 +66,6 @@ mvn spring-boot:run
 La aplicación se iniciará y estará disponible en la URL especificada en la configuración de application.properties o application.yml (por defecto, http://localhost:8080).
 Asegúrate de que tu base de datos esté configurada correctamente antes de ejecutar la aplicación desde el método main, ya que esto puede requerir que la base de datos esté en funcionamiento para que la aplicación se inicie sin problemas.
 
-css
-Copy code
-
-Con estas instrucciones en tu README, los desarrolladores que utilicen tu proyecto tendrán una guía clara sobre cómo iniciar la aplicación Spring Boot desde el método `main`. Asegúrate de personalizar las rutas y nombres de clases según la estructura de tu proyecto.
-
 
 
 
