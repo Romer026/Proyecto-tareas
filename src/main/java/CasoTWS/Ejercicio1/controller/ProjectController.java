@@ -68,8 +68,8 @@ public class ProjectController {
 
   
 
-    @PostMapping("/add-project/{name}/{description}")
-    public Project createProject(@PathVariable("name") String name, @PathVariable("description") String description) {
+    @PostMapping("/add-project")
+    public Project createProject(@RequestParam(value = "name") String name, @RequestParam(value = "description") String description) {
         Project project = new Project();
         project.setName(name);
         project.setDescription(description);
